@@ -8,3 +8,4 @@ numpy
 timm
 utils
 seaborn
+logfire[fastapi]
