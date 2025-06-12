@@ -1,0 +1,11 @@
+fastapi[all]
+joblib
+scikit-learn
+python-dotenv
+google-generativeai
+pandas
+numpy
+timm
+utils
+seaborn
+logfire[fastapi]
