@@ -6,7 +6,7 @@ from torch import nn
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model = torch.load("/workspaces/skin-con/model/skin_model.pth",map_location=device, weights_only=False)
+model = torch.load("./model/skin_model.pth",map_location=device, weights_only=False)
 
 softmax = nn.Softmax(dim=1)
 
