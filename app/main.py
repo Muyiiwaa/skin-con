@@ -1,8 +1,8 @@
 from fastapi import FastAPI,UploadFile,File, HTTPException, status
 from pathlib import Path
 import shutil
-from utils import predict_image
-from schema import SkinPredictionResponse
+from .utils import predict_image
+from .schema import SkinPredictionResponse
 import uvicorn
 import logfire
 import os
